@@ -95,7 +95,7 @@ class Serializable(object):
 
     def setter(self, fset):
         self.fset = fset
-        return self
+        return fset
 
     def _repr_info(self):
         return self.type.__class__.__name__
